@@ -1,0 +1,25 @@
+{
+  "name": "codewar",
+  "version": "1.0.0",
+  "description": "codeWar",
+  "main": "index.js",
+  "dependencies": {
+    "should": "^13.2.3"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dragonH/codeWar.git"
+  },
+  "author": "dragonH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dragonH/codeWar/issues"
+  },
+  "homepage": "https://github.com/dragonH/codeWar#readme"
+}

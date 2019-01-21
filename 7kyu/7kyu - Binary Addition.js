@@ -1,4 +1,4 @@
-function addBinary(a,b) {
+module.exports = function addBinary(a,b) {
   let sum = a+b;
   let result = '';
   while(sum!==0){

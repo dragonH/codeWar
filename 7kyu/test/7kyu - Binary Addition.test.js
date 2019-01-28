@@ -1,6 +1,6 @@
 const addBinary = require('../7kyu - Binary Addition');
 const should = require('should');
-describe('7kyu - Binary Addition.test', () => {
+describe('7kyu - Binary Addition', () => {
   it('should return \'11\' for addBinary(1, 2)', (done) => {
     addBinary(1, 2).should.equal('11');
     done();

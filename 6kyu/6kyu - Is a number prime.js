@@ -1,4 +1,4 @@
-function isPrime(num) {
+module.exports = function isPrime(num) {
   //TODO
   if(num<=1){
    return false;

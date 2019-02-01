@@ -1,4 +1,4 @@
-var moveZeros = function (arr) {
+module.exports = function moveZeros(arr) {
   let count = 0;
   arr.forEach((el, index) => {
     if(el===0){

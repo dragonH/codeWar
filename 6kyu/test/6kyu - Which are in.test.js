@@ -1,4 +1,4 @@
-const InArray = require('../5kyu - Which are in');
+const InArray = require('../6kyu - Which are in');
 const should = require('should');
 
 const a2 = ["lively", "alive", "harp", "sharp", "armstrong"];

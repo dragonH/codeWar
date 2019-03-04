@@ -1,4 +1,4 @@
-function findNextSquare(sq) {
+module.exports = function findNextSquare(sq) {
   // Return the next square if sq if a perfect square, -1 otherwise
   let ans = Math.sqrt(sq);
   let y = String(ans).indexOf(".") + 1;

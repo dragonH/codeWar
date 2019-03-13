@@ -1,4 +1,4 @@
-function thirt(n) {
+module.exports = function thirt(n) {
   let pointer = [1,10,9,12,3,4];
   while(String(n).length > 2) {
     let arr = String(n).split('').reverse();

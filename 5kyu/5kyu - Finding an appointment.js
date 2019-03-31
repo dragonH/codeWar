@@ -1,4 +1,4 @@
-function getStartTime(schedules, duration) {
+module.exports = function getStartTime(schedules, duration) {
   const availableTimes = getAvialableTime(schedules);
   const availableTime = availableTimes.find(timeRange => timeRangeFormat(timeRange) >= duration);
   return availableTime && availableTime[0] || null;

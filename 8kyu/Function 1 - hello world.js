@@ -1,1 +1,1 @@
-const greet = () => 'hello world!';
+module.exports =  () => 'hello world!';

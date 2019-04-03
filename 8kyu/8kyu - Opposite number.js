@@ -1,3 +1,3 @@
-function opposite(number) {
+module.exports = function opposite(number) {
   return -number;
-}
+};

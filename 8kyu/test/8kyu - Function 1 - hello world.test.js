@@ -1,4 +1,4 @@
-const greet = require('../Function 1 - hello world');
+const greet = require('../8kyu - Function 1 - hello world');
 const should = require('should');
 
 describe('Function 1 - hello world', () => {

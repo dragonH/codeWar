@@ -1,4 +1,4 @@
-var Vector = function (components) {
+module.exports = Vector = function (components) {
   this.vector = components;
 
   this.add = (vectorToAdd) => {

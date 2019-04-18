@@ -1,7 +1,7 @@
 const isOpposite = require('../8kyu - They say that only the name');
 const should = require('should');
 
-describe('8kyu - They say that only the name is long enough to attract attention. They also said that only a simple Kata will have someone to solve it. This is a sadly story #1 Are they opposite', () => {
+describe('8kyu - They say that only the name', () => {
   it('Should return true for isOpposite("ab","AB")', (done) => {
     should(isOpposite("ab","AB")).equal(true);
     done();

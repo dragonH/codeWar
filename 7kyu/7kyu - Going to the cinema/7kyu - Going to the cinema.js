@@ -1,4 +1,4 @@
-function movie(card, ticket, perc) {
+module.exports = function movie(card, ticket, perc) {
   let systemA = 0;
   let systemB = card;
   let counter = 1

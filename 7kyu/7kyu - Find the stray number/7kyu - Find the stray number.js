@@ -1,0 +1,1 @@
+module.exports = stray = nums => nums.reduce((a, b) => a ^ b);
